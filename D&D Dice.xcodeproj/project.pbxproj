@@ -14,6 +14,8 @@
 		7714710B1DAD3E1F00F84288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771471091DAD3E1F00F84288 /* LaunchScreen.storyboard */; };
 		771471161DAD3E1F00F84288 /* D_D_DiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771471151DAD3E1F00F84288 /* D_D_DiceTests.swift */; };
 		771471211DAD3E1F00F84288 /* D_D_DiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771471201DAD3E1F00F84288 /* D_D_DiceUITests.swift */; };
+		777E346C1DB7D0C0000C185B /* rollTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777E346B1DB7D0C0000C185B /* rollTableViewCell.swift */; };
+		779960491DAE8F0600AC80FB /* dieRollingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779960481DAE8F0600AC80FB /* dieRollingFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7714711C1DAD3E1F00F84288 /* D&D DiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "D&D DiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		771471201DAD3E1F00F84288 /* D_D_DiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D_D_DiceUITests.swift; sourceTree = "<group>"; };
 		771471221DAD3E1F00F84288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777E346B1DB7D0C0000C185B /* rollTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rollTableViewCell.swift; sourceTree = "<group>"; };
+		779960481DAE8F0600AC80FB /* dieRollingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dieRollingFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				771471001DAD3E1F00F84288 /* AppDelegate.swift */,
 				771471021DAD3E1F00F84288 /* ViewController.swift */,
+				779960481DAE8F0600AC80FB /* dieRollingFunctions.swift */,
+				777E346B1DB7D0C0000C185B /* rollTableViewCell.swift */,
 				771471041DAD3E1F00F84288 /* Main.storyboard */,
 				771471071DAD3E1F00F84288 /* Assets.xcassets */,
 				771471091DAD3E1F00F84288 /* LaunchScreen.storyboard */,
@@ -193,6 +199,7 @@
 				TargetAttributes = {
 					771470FC1DAD3E1F00F84288 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 75DZ4CG2N8;
 						ProvisioningStyle = Automatic;
 					};
 					771471101DAD3E1F00F84288 = {
@@ -261,6 +268,8 @@
 			files = (
 				771471031DAD3E1F00F84288 /* ViewController.swift in Sources */,
 				771471011DAD3E1F00F84288 /* AppDelegate.swift in Sources */,
+				777E346C1DB7D0C0000C185B /* rollTableViewCell.swift in Sources */,
+				779960491DAE8F0600AC80FB /* dieRollingFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +421,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75DZ4CG2N8;
 				INFOPLIST_FILE = "D&D Dice/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MAD2016.D-D-Dice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +435,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75DZ4CG2N8;
 				INFOPLIST_FILE = "D&D Dice/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MAD2016.D-D-Dice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +518,7 @@
 				771471271DAD3E1F00F84288 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		771471281DAD3E1F00F84288 /* Build configuration list for PBXNativeTarget "D&D DiceTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +527,7 @@
 				7714712A1DAD3E1F00F84288 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7714712B1DAD3E1F00F84288 /* Build configuration list for PBXNativeTarget "D&D DiceUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +536,7 @@
 				7714712D1DAD3E1F00F84288 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
